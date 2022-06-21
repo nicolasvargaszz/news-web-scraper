@@ -1,0 +1,4 @@
+links     = //a[@class="article-link"]/@href
+titulo    = //div[@class = "article-title"]/h1/span/text()
+resumen   = //div[@class="article-intro"]/p/text()
+cuerpo    = //div[@class="article-content"]/article/p[not(@class)]/text()
